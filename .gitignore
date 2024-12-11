@@ -1,0 +1,66 @@
+
+/dist
+/node_modules
+
+*.log
+/.idea
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# TypeScript
+*.tsbuildinfo
+dist/
+build/
+out/
+
+# Logs
+logs
+*.log
+logs/*.log
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Testing
+coverage/
+.nyc_output/
+jest-test-results.json
+
+# Environment Variables
+.env
+.env.*.local
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.swm
+*.DS_Store
+
+# MacOS
+.DS_Store
+
+# JetBrains IDEs
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Debugger
+.vscode/launch.json
+.vscode/settings.json
+.vscode/tasks.json
+
+# Optional npm cache directory
+.npm/
+
+# Temp files
+/tmp/
