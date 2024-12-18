@@ -10,6 +10,6 @@ export default {
   transform: {
     '^.+\\.(t|j)s$': 'ts-jest',
   },
-  collectCoverage: ['**/*.(t|j)s'],
+  collectCoverage: true,
   testEnvironment: 'node',
 }
